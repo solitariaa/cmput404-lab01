@@ -1,0 +1,24 @@
+Q1: https://github.com/solitariaa
+Q2: 2.26.0
+Q3: 2.27.1
+Q4: In the virtual environment, the cmd has a "(venv)" signal and the version of libraries are different from which on the system. This makes sure for the different projects they have different configuration.
+Q5: Status code: 301, if I want to get a 200 status code, I must visit https://www.google.com/
+Q6: Status code: 301, which is returned by curl -i http://google.com/teapot
+    Status code: 301 first then 418, which is returned by curl -iL http://google.com/teapot
+    Status code: 418, for both curl -i and curl -iL http://www.google.com/teapot
+Q7: The form content changed from 
+    <H3>Form Contents:</H3>
+    <P>No form fields.
+    <DL>
+    </DL>
+    to
+    <H3>Form Contents:</H3>
+    <DL>
+    <DT>X: <i>&lt;type 'instance'&gt;</i>
+    <DD>MiniFieldStorage('X', 'Y')
+    </DL>
+    The shell environment also add two lines:
+    <DT> CONTENT_LENGTH <DD> 3
+    <DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+    This method is useful for sending POST requests, in this case we add POST data "x=y" to the request.
+Q8: https://github.com/solitariaa/cmput404-lab1/blob/main/1.py
